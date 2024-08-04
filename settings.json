@@ -1,0 +1,137 @@
+{
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.accessibilitySupport": "off",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": false,
+        "**/__pycache__": true
+    },
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "github.copilot.enable": {
+        "*": true,
+        "cpp": true,
+        "go": true,
+        "javascript": true,
+        "markdown": true,
+        "php": false,
+        "plaintext": true,
+        "python": true,
+        "scminput": false,
+        "yaml": true
+    },
+    "gitlens.defaultDateFormat": null,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "prettier.printWidth": 122,
+    "prettier.useTabs": true,
+    "python.languageServer": "Pylance",
+    "settingsSync.ignoredSettings": [
+        "-python.defaultInterpreterPath"
+    ],
+    "window.openFoldersInNewWindow": "on",
+    "workbench.colorTheme": "Noctis Sereno",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "prettier.tabWidth": 4,
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+    "lldb.launch.expressions": "native",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "black-formatter.args": [
+        "--line-length=135"
+    ],
+    "gitlens.launchpad.indicator.enabled": false,
+    "vscord.status.problems.countedSeverities": [],
+    "vscord.status.problems.text": "/ {git_branch}",
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": true,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    "files.trimTrailingWhitespace": true,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "window.nativeFullScreen": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    // Silence the Noise
+    "editor.hover.enabled": true,
+    "workbench.tips.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": true,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "problems.decorations.enabled": true,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    // Custom CSS and JS
+    "vscode_custom_css.imports": [
+        "file:///Users/dead/Developer/vsc-settings/design.css",
+        "file:///Users/dead/Developer/vsc-settings/script.js"
+    ]
+}
